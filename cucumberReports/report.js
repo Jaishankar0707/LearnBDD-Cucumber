@@ -1,4 +1,4 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("src/main/java/features/Create_Delete_Leads.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("src/main/java/pom/qa/features/Create_Delete_Leads.feature");
 formatter.feature({
   "name": "Creation, Deletion of leads.",
   "description": "",
@@ -62,8 +62,7 @@ formatter.match({
   "location": "Step_Create_Delete_Leads.the_user_is_on_the_Home_page()"
 });
 formatter.result({
-  "error_message": "java.lang.NullPointerException\n\tat stepDefinition.Step_Create_Delete_Leads.the_user_is_on_the_Home_page(Step_Create_Delete_Leads.java:43)\n\tat ✽.The user is on the Home page.(src/main/java/features/Create_Delete_Leads.feature:10)\n",
-  "status": "failed"
+  "status": "passed"
 });
 formatter.step({
   "name": "The user clicks on the CRMSFA button.",
@@ -73,7 +72,7 @@ formatter.match({
   "location": "Step_Create_Delete_Leads.the_user_clicks_on_the_CRMSFA_button()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "The user clicks on the Leads link.",
@@ -83,7 +82,7 @@ formatter.match({
   "location": "Step_Create_Delete_Leads.the_user_clicks_on_the_Leads_link()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "The user clciks on the Create lead.",
@@ -93,7 +92,7 @@ formatter.match({
   "location": "Step_Create_Delete_Leads.the_user_clciks_on_the_Create_lead()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "The user enters company name.",
@@ -103,7 +102,7 @@ formatter.match({
   "location": "Step_Create_Delete_Leads.the_user_enters_company_name()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "The user enters first name.",
@@ -113,7 +112,7 @@ formatter.match({
   "location": "Step_Create_Delete_Leads.the_user_enters_first_name()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "The user enters last name.",
@@ -123,7 +122,7 @@ formatter.match({
   "location": "Step_Create_Delete_Leads.the_user_enters_last_name()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "The user clicks create lead button.",
@@ -133,6 +132,6 @@ formatter.match({
   "location": "Step_Create_Delete_Leads.the_user_clicks_create_lead_button()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 });

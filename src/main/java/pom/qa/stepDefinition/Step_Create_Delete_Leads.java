@@ -1,4 +1,4 @@
-package stepDefinition;
+package pom.qa.stepDefinition;
 
 import java.util.concurrent.TimeUnit;
 
@@ -11,7 +11,7 @@ import cucumber.api.java.en.Then;
 
 public class Step_Create_Delete_Leads {
 	
-	public ChromeDriver driver;
+	public static ChromeDriver driver;
 	
 	@Given("^The user is on the login page.$")
 	public void the_user_is_on_the_login_page() {
@@ -40,6 +40,7 @@ public class Step_Create_Delete_Leads {
 
 	@Given("^The user is on the Home page.$")
 	public void the_user_is_on_the_Home_page() {
+		//System.out.println(driver.findElementByXPath("//div[@id=\"form\"]/h2").getText());
 		Assert.assertEquals(driver.findElementByXPath("//div[@id=\"form\"]/h2").getText(), "Welcome\n" + 
 	  		"Demo Sales Manager");
 	}
